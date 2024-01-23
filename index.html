@@ -1,51 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Its me sanjeev</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev Thapa - Profile</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            color: #fff;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1> This is me Sanjeev Thapa as Devops engineer</h1>
-    <section class="slide fade-6 kenBurns">
-        <div class="content">
-          <div class="container">
-            <div class="wrap">
-      
-              <div class="fix-11-12">
-                <h1 class="cropBottom ae-1 fromCenter smaller">
-                  hello sanjeev jiii
-                  <span class="button play small white popupTrigger button-7 shift-up-2" data-popup-id="7">
-                    <svg><use href="assets/svg/icons.svg#play"></use></svg>
-                  </span>
-                  Lets deep drive in DEVOPS
-                </h1>
-              </div>
-      
-            </div>
-          </div>
-        </div>
-        <div class="background" style="background-image:url(assets/img/background/img-07.jpg)"></div>
-      </section>
-      
-      <!-- Popup Video -->
-      <div class="popup autoplay" data-popup-id="7">
-        <div class="close"><svg><use href="assets/svg/icons.svg#close"></use></svg></div>
-        <div class="content">
-          <div class="container">
-            <div class="wrap">
-              <div class="fix-10-12">
-                <div class="embedVideo popupContent shadow rounded">
-                  <iframe data-src="https://www.youtube.com/embed/uB1-wPrW4ck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
+
+    <header>
+        <h1>Sanjeev Thapa</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to my website!</h2>
+        <p>Explore and learn more about my skills and services.</p>
+    </section>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>Insert details about Sanjeev Thapa's background, experience, and skills here.</p>
+    </section>
+
+    <section id="service">
+        <h2>Services</h2>
+        <p>Offering expertise in Linux, Networking, IoT, and DevOps.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Reach out to me using the contact form below:</p>
+        <!-- Add your Google Maps API script here for the map integration -->
+        <div id="map" style="height: 300px;"></div>
+        <script>
+            // Add your Google Maps API key and map initialization script here
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sanjeev Thapa. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
